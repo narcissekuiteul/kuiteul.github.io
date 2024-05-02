@@ -1,0 +1,757 @@
+body {
+   
+    font-family: 'istok web', sans-serif;
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: 5px 5px 45px -5px black;
+    margin-top: 0%;
+}
+
+.main {
+    background-image: url("images/background color.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#social-network {
+    display: flex;
+    justify-content: space-around;
+}
+
+#social-network div {
+    width: 10%;
+}
+
+#social-network div img{
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#first-level {
+    height: 100vh;
+}
+#header, #footer {
+    display: flex;
+    margin-left: 5%;
+}
+
+#header .mini-picture {
+    width: 10%;
+}
+
+#header .mini-picture a img{
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    position: releative
+}
+menu {
+    font-weight: bold;
+    width: 80%;
+}
+
+#hamburger {
+    width: 5%;
+    display: none;
+}
+
+menu ul {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    list-style-type: none;
+}
+
+menu ul li {
+    padding: 0.5% 1% 0.5% 1%;
+    font-size: 24px;
+}
+
+menu ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+menu ul li:hover{
+    border-bottom: 5px solid #3961F0;
+    cursor: pointer;
+    color: #3961F0;
+}
+
+/*
+    presentation
+
+*/
+
+#presentation {
+    display: flex;
+}
+
+#home-about {
+    width: 45%;
+    margin: 5%;
+}
+
+#home-about h1 {
+    font-size: 72px;
+}
+
+#home-about #my-title {
+    font-size: 26px;
+    line-height: 50px;
+}
+
+#picture-of-me {
+    width: 45%;
+    margin-right: 3%;
+    margin-left: 0%;
+    position: relative;
+}
+
+#profile-photo img {
+    display: block;
+    width: 100%;
+    height: 700px;
+    border-radius: 50%;
+}
+
+.button button {
+    background-image: url("images/background2.png");
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 20%;
+    font-size: 26px;
+    padding: 3% 0.5% 3% 0.5%;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+/**
+
+    HOME PAGE SECOND LEVEL
+
+    **/
+
+#second-level {
+    background-color: white;
+    margin-bottom: 0%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.home-skill {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.image-skill {
+    width: 25%;
+}
+
+.image-skill img {
+    display: block;
+    width: 100%;
+}
+
+.home-skill-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/*
+
+    This this the third level
+    CSS code of my home page
+    */
+
+#third-level {
+    display: flex;
+    height: 680px;
+}
+
+.experience-one-about {
+    width: 45%;
+    margin-left: 5%;
+}
+.experience-one-image{
+  width: 55%;
+  margin-top: 0%;
+}
+
+h3 {
+    font-size: 36px;
+    width: 60%;
+}
+
+.experience-one-image img {
+    display: block;
+    width: 100%;
+    border-radius: 50% 0% 0% 50%;
+    height: 680px;
+}
+
+#third-level ul, #fifth-level ul {
+    width: 75%;
+    text-align: justify;
+}
+
+
+/*
+
+    This this the fourth level
+    CSS code of my home page
+    */
+
+#fourth-level{
+    display: flex;
+    height: 680px;
+    background-image: url("images/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#experience-two-about {
+    width: 45%;
+    position: relative;
+    margin-left: 5%;
+}
+#experience-two-image{
+  width: 55%;
+}
+
+h3 {
+    font-size: 36px;
+    width: 60%;
+}
+
+#experience-two-image img {
+    display: block;
+    width: 100%;
+    border-radius: 0% 50% 50% 0%;
+    height: 680px;
+}
+
+#fourth-level ul {
+    width: 70%;
+    text-align: justify;
+}
+
+/*
+
+    This code concerne the fifth block
+    of my portfolio home page
+
+*/
+
+#fifth-level {
+    display: flex;
+}
+
+/*
+
+    This code concerne the fifth block
+    of my portfolio home page
+
+*/
+
+#sixth-level {
+    height: 500px;
+    background-color: white;
+    margin-bottom: 0% !important;
+}
+
+#about-me-in-brief {
+    width: 60%;
+    margin-left: 20%;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 18px;
+    
+}
+
+#seventh-level {
+    height: 380px;
+    background-image: url("images/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0% !important;
+}
+
+
+footer {
+    color: white;
+    background-color: black;
+    height: 130px;
+}
+
+footer .mini-picture {
+    width: 5%;
+    padding-top: 1%;
+}
+footer img{
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+}
+
+footer ul li {
+    font-size: 12px;
+    padding: 5px;
+}
+
+/**
+    Responsive design
+
+    */
+
+@media screen and (max-width: 1600px){
+   /*
+    presentation
+
+*/  
+    #presentation {
+        display: flex;
+    }
+
+    #home-about {
+        width: 45%;
+        margin: 5%;
+    }
+
+    #home-about h1 {
+        font-size: 60px;
+    }
+
+    #home-about #my-title {
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    #picture-of-me {
+        width: 43%;
+        margin-right: 3%;
+        margin-left: 0%;
+        position: relative;
+    }
+
+    #profile-photo img {
+        display: block;
+        width: 90%;
+        height: 550px;
+        border-radius: 50%;
+    }
+
+    .button button {
+        background-image: url("images/background2.png");
+        width: 60%;
+        border-radius: 10px;
+        margin-left: 20%;
+        font-size: 26px;
+        padding: 3% 0.5% 3% 0.5%;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    
+    body {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    h1 {
+        font-size: 48px !important;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    #first-level, #second-level, #third-level, #fourth-level, #fifth-level, #sixth-level, #seventh-level {
+         height: auto !important;
+    }
+
+    .experience-one-about {
+        width: 45%;
+        margin-left: 1%;
+    }
+    .experience-one-image{
+      width: 55%;
+      margin-top: 2.5% !important;
+    }
+    
+    h3 {
+        font-size: 36px;
+        width: 100%;
+    }
+    
+    .experience-one-image img {
+        display: block;
+        width: 100%;
+        border-radius: 50% 0% 0% 50%;
+        height: 680px;
+    }
+    
+    #third-level ul, #fifth-level ul {
+        width: 85%;
+        text-align: justify;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    #hamburger{
+        display: block;
+        margin-left: 70%;
+        width: 10%;
+        height: 50px;
+    }
+
+    #hamburger img {
+        display: block;
+        width: 100%;
+    }
+
+    menu {
+        display: none;
+    }
+
+    #presentation {
+        display: flex;
+    }
+
+    #home-about {
+        width: 45%;
+        margin: 5%;
+    }
+
+    #home-about h1 {
+        font-size: 36px !important;
+    }
+
+    #home-about #my-title {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #picture-of-me {
+        width: 43%;
+        margin-right: 3%;
+        margin-left: 0%;
+        margin-top: 2%;
+        position: relative;
+    }
+
+    #profile-photo img {
+        display: block;
+        width: 90%;
+        height: 350px;
+        border-radius: 50%;
+    }
+
+    .button button {
+        background-image: url("images/background2.png");
+        width: 80%;
+        border-radius: 10px;
+        margin-left: 10%;
+        margin-top: 5%;
+        font-size: 20px;
+        padding: 3% 0.5% 3% 0.5%;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        
+    }
+
+    h2 {
+        font-size: 34px;
+        margin-top: 5%;
+    }
+    #second-level {
+        background-color: white;
+        margin-bottom: 0%;
+    }
+    
+    .home-skill-title {
+        font-size: 14px !important;
+
+    }
+    #home-first-skill, #home-second-skill {
+        display: flex;
+        justify-content: space-around;
+    }
+         
+    .image-skill {
+        width: 25%;
+    }
+    
+    .image-skill img {
+        display: block;
+        width: 100%;
+    }
+    
+    .home-skill-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /*
+
+    This this the third level
+    CSS code of my home page
+    */
+
+    .experience-one-about {
+        width: 45%;
+        margin-left: 5%;
+    }
+    .experience-one-image{
+    width: 40%;
+    margin-top: 15%;
+    }
+
+    h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .experience-one-image img, #experience-two-image img {
+        display: block;
+        width: 100%;
+        border-radius: 50%;
+        height: 500px;
+    }
+
+    #third-level ul, #fifth-level ul {
+        width: 75%;
+        text-align: justify;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    /*
+
+    This this the fourth level
+    CSS code of my home page
+    */
+
+    #fourth-level{
+        display: flex;
+        height: 640px;
+        background-image: url("images/background2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #experience-two-about {
+        width: 45%;
+        position: relative;
+        margin-left: 5%;
+    }
+
+    #experience-two-image img {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+
+    #fourth-level ul {
+        width: 70%;
+        text-align: justify;
+    }
+
+   #about-me-in-brief {
+    width: 90%;
+    margin-left: 5%;
+   }
+
+   #seventh-level {
+        height: 200px;
+   }
+
+   footer {
+     height: 80px;
+     font-size: 1%;
+   }
+
+}
+
+    
+@media screen and (max-width: 768px) {
+
+   h1 {
+    font-size: 20px !important;
+   }
+
+   .home-skill-title {
+    font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #presentation {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #home-about {
+        width: 90%;
+        margin: 5%;
+    }
+    
+    #home-about h1 {
+        font-size: 24px !important;
+    }
+    
+    #home-about #my-title {
+        font-size: 18px;
+        line-height: 50px;
+    }
+    
+    #picture-of-me {
+        width: 90%;
+        margin: 5%;
+        position: relative;
+    }
+    
+    #profile-photo img {
+        display: block;
+        width: 100%;
+        border-radius: 50%;
+    }
+    
+    .button button {
+        background-image: url("images/background2.png");
+        width: 90%;
+        border-radius: 10px;
+        margin-left: 5%;
+        font-size: 26px;
+        padding: 3% 0.5% 3% 0.5%;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+    }
+
+   
+    /*
+        SECOND LEVEL
+
+        */
+
+    h2 {
+        text-align: center;
+        font-size: 32px !important;
+    }
+    
+    .home-skill {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    
+    .image-skill {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .home-skill img {
+        display: block;
+        width: 100%;
+    }
+    
+    .home-skill-title {
+        font-size: 20px !important;
+        text-align: center !important;
+        font-weight: bold;
+    }
+
+    /**
+        THIRD LEVEL
+
+        */
+    
+    #third-level, #fifth-level {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .experience-one-about {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .experience-one-image{
+      width: 90%;
+      margin-left: 5%;
+    }
+    
+    h3 {
+        font-size: 24px !important;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .experience-one-image img {
+        display: block;
+        width: 100%;
+        border-radius: 50%;
+    }
+    
+    #third-level ul, #fifth-level ul {
+        width: 75%;
+        text-align: justify;
+    }
+    
+    /*
+        FOURTH LEVEL
+        */
+
+    #fourth-level {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #experience-two-about {
+        width: 90%;
+        position: relative;
+        margin-left: 5%;
+    }
+    #experience-two-image{
+      width: 90%;
+      margin-left: -9% !important;
+    }
+    
+    h3 {
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #experience-two-image img {
+        display: block;
+        width: 100%;
+        border-radius: 50%;
+    }
+    
+    #fourth-level ul {
+        width: 90%;
+        text-align: justify;
+    }
+}
