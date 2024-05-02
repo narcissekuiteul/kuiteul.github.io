@@ -1,0 +1,12 @@
+#content {
+    background-image: url("images/background2.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
+
+#change, a {
+    color: white;
+}
